@@ -36,11 +36,25 @@
           <!-- Column 3: Contact -->
           <div>
             <h6 class="font-heading text-2xl mb-4">Ubicación</h6>
-            <ul class="list-none space-y-2 text-body">
+            <ul class="list-none space-y-2 text-body mb-4">
               <li>Av. Jalisco 2850</li>
               <li>Col. Madero (Cacho)</li>
               <li>Plaza Jalisco, Tijuana</li>
             </ul>
+            <a 
+              href="https://www.google.com/maps/place/Booze+Coffee/@32.5169498,-117.0239405,20.57z/data=!4m14!1m7!3m6!1s0x80d9490045f6b6ad:0xc3df2e3348b9d81!2sPlaza+Jalisco!8m2!3d32.5169147!4d-117.0237715!16s%2Fg%2F11y6rlykwz!3m5!1s0x80d949006902f7e3:0x553fe41f798265f5!8m2!3d32.5168972!4d-117.023972!16s%2Fg%2F11w9phm_q_?entry=ttu&g_ep=EgoyMDI1MTAxNC4wIKXMDSoASAFQAw%3D%3D" 
+              target="_blank" 
+              rel="noopener"
+              class="inline-flex items-center gap-2 bg-accent text-white px-4 py-2 rounded-lg hover:bg-wine transition-colors text-sm font-heading group"
+            >
+              <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"/>
+              </svg>
+              <span>Cómo llegar</span>
+              <svg class="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+              </svg>
+            </a>
           </div>
 
           <!-- Column 4: Hours -->

@@ -1,20 +1,68 @@
 <template>
-    <section class="py-16 bg-gradient-to-r from-accent to-wine">
-      <div class="container mx-auto px-4">
-        <div class="max-w-3xl mx-auto text-center">
-          <h2 class="font-heading text-5xl md:text-6xl text-white mb-6">
-            Cada visita cuenta
+    <section class="relative bg-primary overflow-hidden">
+      <!-- Image section - Left side on desktop -->
+      <div class="relative h-[500px] md:h-[600px] overflow-hidden md:absolute md:left-0 md:h-full md:w-1/2">
+        <img 
+          class="w-full h-full object-contain md:object-cover" 
+          src="/card.jpg" 
+          alt="Booze Loyalty Card" 
+        />
+        <!-- Gradient overlay -->
+        
+        <!-- Decorative blob SVG -->
+        <svg 
+          viewBox="0 0 926 676" 
+          aria-hidden="true" 
+          class="absolute -bottom-24 left-24 w-[57.875rem] transform-gpu blur-[100px] opacity-40"
+        >
+          <path 
+            fill="url(#loyalty-gradient)" 
+            fill-opacity=".5" 
+            d="m254.325 516.708-90.89 158.331L0 436.427l254.325 80.281 163.691-285.15c1.048 131.759 36.144 345.144 168.149 144.613C751.171 125.508 707.17-93.823 826.603 41.15c95.546 107.978 104.766 294.048 97.432 373.585L685.481 297.694l16.974 360.474-448.13-141.46Z" 
+          />
+          <defs>
+            <linearGradient 
+              id="loyalty-gradient" 
+              x1="926.392" 
+              x2="-109.635" 
+              y1=".176" 
+              y2="321.024" 
+              gradientUnits="userSpaceOnUse"
+            >
+              <stop stop-color="#EE8542" />
+              <stop offset="1" stop-color="#722F37" />
+            </linearGradient>
+          </defs>
+        </svg>
+      </div>
+  
+      <!-- Content section - Right side -->
+      <div class="relative mx-auto max-w-7xl py-24 sm:py-32 lg:py-40">
+        <div class="px-6 md:ml-auto md:w-1/2 md:pl-16 lg:pl-24">
+          <h2 class="text-5xl md:text-6xl lg:text-7xl font-heading text-k-black mb-6">
+            Acumula puntos
           </h2>
-          <p class="text-white text-xl mb-8">
-            Acumula puntos y gana recompensas
+  
+          <p class="text-xl md:text-2xl text-body mb-8">
+            Obtén recompensas con cada visita
           </p>
+  
+          <!-- CTA Button -->
           <a 
             href="https://take.cards/3tGya" 
             target="_blank" 
             rel="noopener"
-            class="inline-block bg-white text-accent font-heading text-xl px-8 py-4 rounded-full hover:bg-primary transition-colors duration-300 shadow-lg"
+            class="inline-flex items-center gap-3 bg-gradient-to-r from-accent to-wine text-white font-heading text-xl px-8 py-4 rounded-full shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300 group"
           >
-            Obtener tarjeta gratis
+            <span>Obtener tarjeta gratis</span>
+            <svg 
+              class="w-5 h-5 group-hover:translate-x-1 transition-transform" 
+              fill="none" 
+              stroke="currentColor" 
+              viewBox="0 0 24 24"
+            >
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+            </svg>
           </a>
         </div>
       </div>

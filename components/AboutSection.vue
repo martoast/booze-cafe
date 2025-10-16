@@ -3,7 +3,7 @@
     <div class="container mx-auto px-4 mt-lg-5">
       <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         <div>
-          <img src="/public/5.jpg" alt="Coffee Bean" class="w-full h-auto">
+          <img src="/public/about.jpg" alt="Coffee Bean" class="w-full h-auto">
         </div>
         <div class="flex flex-col justify-center">
           <h3 class="font-heading text-7xl md:text-8xl lg:text-9xl">Sobre Nosotros</h3>
