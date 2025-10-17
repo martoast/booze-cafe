@@ -6,7 +6,7 @@
           <img src="/public/about.jpg" alt="Coffee Bean" class="w-full h-auto">
         </div>
         <div class="flex flex-col justify-center">
-          <h3 class="font-heading text-7xl md:text-8xl lg:text-9xl">Sobre Nosotros</h3>
+          <h3 class="font-heading text-7xl md:text-8xl">Sobre Nosotros</h3>
           <div class="mt-4">
             <p class="text-body text-lg">
               Bienvenido a Booze, donde cada momento del día tiene su bebida perfecta. Desde un espresso matutino hasta una copa de vino al atardecer, somos tu refugio en Colonia Cacho, Tijuana. Nuestra mixología de autor, café de especialidad y brunch todo el día se encuentran en un espacio con actitud. Ya sea que vengas por un cold brew, un cocktail creativo o nuestra famosa charcutería con vino, aquí encontrarás ese plan que nunca falla.

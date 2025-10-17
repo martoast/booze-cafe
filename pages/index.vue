@@ -1,6 +1,6 @@
 <template>
   <div>
-    <HeroSection />
+    <HeroSection @open-menu="isMenuOpen = true" />
     <AboutSection />
     <MenuPreview @open-menu="isMenuOpen = true" />
     <LoyaltyBanner />
@@ -11,7 +11,7 @@
 </template>
 
 <script setup>
-
+import { ref } from 'vue'
 
 const isMenuOpen = ref(false)
 </script>

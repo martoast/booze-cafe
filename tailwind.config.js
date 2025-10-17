@@ -9,15 +9,16 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: '#F5F4F2',
-        accent: '#EE8542',
-        'k-black': '#393330',
-        dark: '#4F4844',
+        primary: '#F5F4F2', // Keep light background
+        accent: '#D4A574', // Gold/amber from logo
+        gold: '#C9A961', // Richer gold
+        'gold-light': '#E5D5B7', // Light gold
+        'k-black': '#1a1a1a', // True black from logo
+        dark: '#2d2d2d',
         body: '#4F4844',
         'k-gray': '#EDEBE8',
         'k-border': '#D2CFCC',
-        wine: '#722F37', // Deep wine red
-        'wine-light': '#9B4B53', // Lighter wine shade
+        white: '#FFFFFF',
       },
       fontFamily: {
         heading: ['"Bebas Neue"', 'sans-serif'],
