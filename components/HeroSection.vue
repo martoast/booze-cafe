@@ -1,16 +1,16 @@
 <template>
   <section id="hero" class="relative">
-    <!-- Two images side by side -->
-    <div class="grid grid-cols-1 lg:grid-cols-2 max-h-[30vh] md:max-h-[80vh] ">
+    <!-- Two images side by side on desktop, one on mobile -->
+    <div class="grid grid-cols-1 lg:grid-cols-2 max-h-[80vh]">
       <img 
         src="/10.jpg" 
-        alt="banner left" 
-        class="w-full h-full object-cover min-h-[40vh] lg:min-h-[80vh]"
+        alt="Booze Café Tijuana" 
+        class="w-full h-full object-cover min-h-[80vh]"
       >
       <img 
         src="/11.jpg" 
-        alt="banner right" 
-        class="w-full h-full object-cover min-h-[40vh] lg:min-h-[80vh]"
+        alt="Booze Café ambiente" 
+        class="hidden lg:block w-full h-full object-cover min-h-[80vh]"
       >
     </div>
     
@@ -27,7 +27,7 @@
               O una copa de vino
             </h3>
             <p class="text-base lg:text-lg mt-4 text-body">
-              Tu espacio favorito en Plaza Jalisco para café de especialidad, vinos selectos y cócteles artesanales en un ambiente acogedor.
+              Café, vinos y cócteles en La Cacho, Tijuana.
             </p>
             
             <!-- Primary CTA - Menu Button -->

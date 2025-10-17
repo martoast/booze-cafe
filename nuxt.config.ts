@@ -1,7 +1,7 @@
 export default defineNuxtConfig({
   compatibilityDate: '2025-10-16',
   devtools: { enabled: false },
-  ssr:false,
+  ssr: false,
   modules: [
     '@nuxtjs/tailwindcss'
   ],
@@ -18,12 +18,12 @@ export default defineNuxtConfig({
         },
         { 
           name: 'description', 
-          content: 'Booze Café en Plaza Jalisco, Tijuana. Disfruta café de especialidad, vinos selectos y cócteles artesanales en un ambiente acogedor. Abierto de 7am a 9pm.'
+          content: 'Café, vinos y cócteles en La Cacho, Tijuana. Start with a shot, end with a shot.'
         },
         // Keywords
         {
           name: 'keywords',
-          content: 'booze cafe, cafe tijuana, cockteles tijuana, vino tijuana, cafe especialidad, plaza jalisco, booze coffee, cacho tijuana'
+          content: 'booze cafe, cafe tijuana, cockteles tijuana, vino tijuana, cafe especialidad, cacho tijuana, booze coffee'
         },
         // Open Graph / Facebook
         { 
@@ -36,7 +36,7 @@ export default defineNuxtConfig({
         },
         { 
           property: 'og:description', 
-          content: 'Tu espacio favorito en Plaza Jalisco para café de especialidad, vinos selectos y cócteles artesanales. Start with a shot, end with a shot.'
+          content: 'Café, vinos y cócteles en La Cacho, Tijuana. Start with a shot, end with a shot.'
         },
         { 
           property: 'og:image', 
@@ -57,11 +57,11 @@ export default defineNuxtConfig({
         },
         { 
           name: 'twitter:title', 
-          content: 'Booze Café | Café de Especialidad y Cócteles en Tijuana'
+          content: 'Booze Café | Tijuana'
         },
         { 
           name: 'twitter:description', 
-          content: 'Tu espacio favorito en Plaza Jalisco para café de especialidad, vinos selectos y cócteles artesanales.'
+          content: 'Café, vinos y cócteles en La Cacho, Tijuana.'
         },
         { 
           name: 'twitter:image', 
