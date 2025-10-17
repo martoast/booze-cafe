@@ -40,7 +40,7 @@ export default defineNuxtConfig({
         },
         { 
           property: 'og:image', 
-          content: '/logo.jpg'
+          content: 'https://booze-cafe.netlify.app/logo.jpg'
         },
         { 
           property: 'og:image:width', 
@@ -65,7 +65,7 @@ export default defineNuxtConfig({
         },
         { 
           name: 'twitter:image', 
-          content: '/logo.jpg'
+          content: 'https://booze-cafe.netlify.app/logo.jpg'
         },
         // Local Business
         {
