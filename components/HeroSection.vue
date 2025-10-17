@@ -1,7 +1,7 @@
 <template>
   <section id="hero" class="relative">
     <!-- Two images side by side on desktop, one on mobile -->
-    <div class="grid grid-cols-1 lg:grid-cols-2 max-h-[80vh]">
+    <div class="grid grid-cols-1 lg:grid-cols-2 max-h-[30vh]">
       <img 
         src="/10.jpg" 
         alt="Booze Café Tijuana" 
