@@ -3,7 +3,7 @@
     <!-- Image section - Left side on desktop -->
     <div class="relative h-[500px] md:h-[600px] overflow-hidden md:absolute md:left-0 md:h-full md:w-1/2">
       <img 
-        class="w-full h-full object-contain md:object-cover" 
+        class="w-full h-full object-contain md:object-cover rounded-2xl md:rounded-none md:rounded-r-3xl" 
         src="/card.jpg" 
         alt="Booze Loyalty Card" 
       />

@@ -1,6 +1,6 @@
 <!-- components/HeroSection.vue -->
 <template>
-  <section id="hero" class="relative min-h-[80vh] lg:min-h-[90vh]">
+  <section id="hero" class="relative min-h-[80vh] lg:min-h-[90vh] overflow-hidden">
     <!-- Two images side by side on desktop, one on mobile -->
     <div class="absolute inset-0 grid grid-cols-1 lg:grid-cols-2">
       <img 
