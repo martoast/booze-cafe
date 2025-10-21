@@ -40,6 +40,26 @@
                 <span>Ver menú</span>
               </button>
             </div>
+
+            <!-- Social Media Links -->
+            <div class="mt-6 flex gap-4 justify-center lg:justify-start">
+              <a 
+                href="https://www.facebook.com/boozecafe.tj" 
+                target="_blank" 
+                rel="noopener"
+                class="flex items-center justify-center w-12 h-12 rounded-full bg-k-black hover:bg-gold transition-all duration-300 group"
+              >
+                <FacebookIcon class="w-6 h-6 text-white group-hover:text-k-black transition-colors" />
+              </a>
+              <a 
+                href="https://www.instagram.com/boozecafe.tj/?hl=en" 
+                target="_blank" 
+                rel="noopener"
+                class="flex items-center justify-center w-12 h-12 rounded-full bg-k-black hover:bg-gold transition-all duration-300 group"
+              >
+                <InstagramIcon class="w-6 h-6 text-white group-hover:text-k-black transition-colors" />
+              </a>
+            </div>
           </div>
           
           <div class="mt-8 pt-8 border-t border-gold/30 lg:border-t-0 lg:pt-0 lg:mt-0 lg:w-1/2 lg:pl-12">
@@ -56,5 +76,8 @@
 </template>
 
 <script setup>
+import FacebookIcon from './icons/FacebookIcon.vue'
+import InstagramIcon from './icons/InstagramIcon.vue'
+
 defineEmits(['open-menu'])
 </script>
