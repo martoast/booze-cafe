@@ -16,7 +16,7 @@
               <!-- Header -->
               <div class="sticky top-0 bg-primary border-b border-k-border z-10 px-8 py-6 flex justify-between items-center">
                 <div>
-                  <h2 class="font-heading text-5xl md:text-6xl">nuestro menú</h2>
+                  <h2 class="font-heading text-5xl md:text-6xl">Menú</h2>
                   <p class="text-body mt-2">Café de especialidad, vinos selectos y cócteles artesanales</p>
                 </div>
                 <button 
