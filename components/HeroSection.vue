@@ -1,34 +1,44 @@
 <!-- components/HeroSection.vue -->
 <template>
   <section id="hero" class="relative min-h-screen overflow-hidden">
-    <!-- Two images side by side on desktop, one on mobile -->
-    <div class="absolute inset-0 grid grid-cols-1 lg:grid-cols-2">
-      <img 
-        src="/10.jpg" 
-        alt="Booze Café Tijuana" 
-        class="w-full h-full object-cover"
-      >
+    <!-- Background images -->
+    <div class="absolute inset-0">
+      <!-- Mobile: single image takes full space -->
       <img 
         src="/11.jpg" 
-        alt="Booze Café ambiente" 
-        class="hidden lg:block w-full h-full object-cover"
+        alt="Booze Café Tijuana" 
+        class="w-full h-full object-cover lg:hidden"
       >
+      
+      <!-- Desktop: two images side by side -->
+      <div class="hidden lg:grid grid-cols-2 w-full h-full">
+        <img 
+          src="/10.jpg" 
+          alt="Booze Café Tijuana" 
+          class="w-full h-full object-cover"
+        >
+        <img 
+          src="/11.jpg" 
+          alt="Booze Café ambiente" 
+          class="w-full h-full object-cover"
+        >
+      </div>
     </div>
     
-    <!-- Gradient overlay for better text readability (optional, subtle) -->
+    <!-- Gradient overlay for better text readability on mobile -->
     <div class="absolute inset-0 bg-gradient-to-t from-k-black/40 via-transparent to-transparent lg:hidden"></div>
     
-    <!-- Content card - positioned at bottom on desktop -->
-    <div class="relative z-10 container mx-auto px-4 h-screen flex items-end pb-12 lg:pb-16">
+    <!-- Content card - centered on mobile, bottom left on desktop -->
+    <div class="relative z-10 container mx-auto px-4 h-dvh md:h-screen flex items-center lg:items-end pb-0 lg:pb-16">
       <div class="border-2 border-gold rounded-3xl bg-white/90 backdrop-blur-md shadow-2xl w-full max-w-4xl mx-auto lg:mx-0">
         <div class="flex flex-col lg:flex-row p-6 lg:p-8">
           <div class="lg:w-1/2 lg:pr-8 lg:border-r lg:border-gold/30">
-            <h3 class="font-heading text-3xl lg:text-4xl xl:text-5xl text-k-black">
-              Disfruta un 
-              <span class="text-gold">café</span>
+            <h3 class="font-heading text-4xl lg:text-4xl xl:text-5xl text-k-black">
+              Start with a 
+              <span class="text-gold">shot</span>
             </h3>
-            <h3 class="font-heading italic text-2xl lg:text-3xl xl:text-4xl text-k-black mt-1">
-              O una copa de vino
+            <h3 class="font-heading italic text-3xl lg:text-3xl xl:text-4xl text-k-black mt-1">
+              End with a shot
             </h3>
             <p class="font-body text-base lg:text-lg mt-3 text-body">
               Café, vinos y cócteles en La Cacho, Tijuana.

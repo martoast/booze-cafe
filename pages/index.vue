@@ -4,6 +4,7 @@
     <AboutSection />
     <MenuPreview @open-menu="isMenuOpen = true" />
     <LoyaltyBanner />
+    <ReviewSection />
     
     <!-- Menu Modal -->
     <MenuModal :is-open="isMenuOpen" @close="isMenuOpen = false" />
@@ -12,6 +13,7 @@
 
 <script setup>
 import { ref } from 'vue'
+import ReviewSection from '~/components/ReviewSection.vue'
 
 const isMenuOpen = ref(false)
 </script>

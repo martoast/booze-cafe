@@ -6,7 +6,7 @@
           <!-- Column 1: Logo and Socials -->
           <div>
             <img src="/logo.svg" alt="Footer Logo" class="h-12 mb-4">
-            <p class="py-3 font-body text-body">Tu espacio favorito en Colonia Cacho para café, vino y buena vibra.</p>
+            <!-- <p class="py-3 font-body text-body">Tu espacio favorito en Colonia Cacho para café, vino y buena vibra.</p> -->
             <p class="font-heading italic text-body font-bold">Start with a shot, end with a shot.</p>
             <ul class="flex gap-3 list-none mt-4">
               <li>
