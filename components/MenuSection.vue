@@ -1,10 +1,10 @@
 <template>
   <section id="menu" class="py-medium">
     <div class="container mx-auto px-4">
-      <h2 class="font-heading text-7xl md:text-8xl lg:text-9xl">
+      <h2 class="font-heading text-7xl md:text-8xl lg:text-9xl text-k-black">
         nuestro menú
       </h2>
-      <p class="text-body mt-2 max-w-2xl">
+      <p class="font-body text-body mt-2 max-w-2xl">
         Café de especialidad, vinos selectos y cócteles artesanales. Todo
         preparado con dedicación para tu disfrute.
       </p>
@@ -12,11 +12,11 @@
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-x-12 gap-y-16">
           <!-- Café -->
           <div>
-            <h3 class="font-heading text-5xl">café</h3>
+            <h3 class="font-heading text-5xl text-k-black">café</h3>
             <ul class="list-none space-y-6 mt-6">
               <li v-for="item in menu.cafe" :key="item.name">
                 <h5
-                  class="flex justify-between items-baseline font-heading text-2xl"
+                  class="flex justify-between items-baseline font-heading text-2xl text-k-black"
                 >
                   <span>{{ item.name }}</span>
                   <span
@@ -24,7 +24,7 @@
                   ></span>
                   <span>${{ item.price }}</span>
                 </h5>
-                <p class="text-body text-sm mt-1" v-if="item.description">
+                <p class="font-body text-body text-sm mt-1" v-if="item.description">
                   {{ item.description }}
                 </p>
               </li>
@@ -33,11 +33,11 @@
 
           <!-- Sin Café -->
           <div>
-            <h3 class="font-heading text-5xl">sin café</h3>
+            <h3 class="font-heading text-5xl text-k-black">sin café</h3>
             <ul class="list-none space-y-6 mt-6">
               <li v-for="item in menu.sinCafe" :key="item.name">
                 <h5
-                  class="flex justify-between items-baseline font-heading text-2xl"
+                  class="flex justify-between items-baseline font-heading text-2xl text-k-black"
                 >
                   <span>{{ item.name }}</span>
                   <span
@@ -45,7 +45,7 @@
                   ></span>
                   <span>${{ item.price }}</span>
                 </h5>
-                <p class="text-body text-sm mt-1" v-if="item.description">
+                <p class="font-body text-body text-sm mt-1" v-if="item.description">
                   {{ item.description }}
                 </p>
               </li>
@@ -54,11 +54,11 @@
 
           <!-- Drinks con Café -->
           <div>
-            <h3 class="font-heading text-5xl">drinks con café</h3>
+            <h3 class="font-heading text-5xl text-k-black">drinks con café</h3>
             <ul class="list-none space-y-6 mt-6">
               <li v-for="item in menu.drinksConCafe" :key="item.name">
                 <h5
-                  class="flex justify-between items-baseline font-heading text-2xl"
+                  class="flex justify-between items-baseline font-heading text-2xl text-k-black"
                 >
                   <span>{{ item.name }}</span>
                   <span
@@ -66,7 +66,7 @@
                   ></span>
                   <span>${{ item.price }}</span>
                 </h5>
-                <p class="text-body text-sm mt-1" v-if="item.description">
+                <p class="font-body text-body text-sm mt-1" v-if="item.description">
                   {{ item.description }}
                 </p>
               </li>
@@ -75,11 +75,11 @@
 
           <!-- Especialidades -->
           <div>
-            <h3 class="font-heading text-5xl">especialidades</h3>
+            <h3 class="font-heading text-5xl text-k-black">especialidades</h3>
             <ul class="list-none space-y-6 mt-6">
               <li v-for="item in menu.especialidades" :key="item.name">
                 <h5
-                  class="flex justify-between items-baseline font-heading text-2xl"
+                  class="flex justify-between items-baseline font-heading text-2xl text-k-black"
                 >
                   <span>{{ item.name }}</span>
                   <span
@@ -87,7 +87,7 @@
                   ></span>
                   <span>${{ item.price }}</span>
                 </h5>
-                <p class="text-body text-sm mt-1" v-if="item.description">
+                <p class="font-body text-body text-sm mt-1" v-if="item.description">
                   {{ item.description }}
                 </p>
               </li>
@@ -96,13 +96,13 @@
 
           <!-- Vinos -->
           <div>
-            <h3 class="font-heading text-5xl text-wine">vinos</h3>
+            <h3 class="font-heading text-5xl text-k-black">vinos</h3>
 
-            <h4 class="font-heading text-3xl mt-8 mb-4">Espumosos</h4>
+            <h4 class="font-heading text-3xl mt-8 mb-4 text-k-black">Espumosos</h4>
             <ul class="list-none space-y-4">
               <li v-for="item in menu.vinos.espumosos" :key="item.name">
                 <h5
-                  class="flex justify-between items-baseline font-heading text-2xl"
+                  class="flex justify-between items-baseline font-heading text-2xl text-k-black"
                 >
                   <span>{{ item.name }}</span>
                   <span
@@ -113,11 +113,11 @@
               </li>
             </ul>
 
-            <h4 class="font-heading text-3xl mt-8 mb-4">Tintos</h4>
+            <h4 class="font-heading text-3xl mt-8 mb-4 text-k-black">Tintos</h4>
             <ul class="list-none space-y-4">
               <li v-for="item in menu.vinos.tintos" :key="item.name">
                 <h5
-                  class="flex justify-between items-baseline font-heading text-2xl"
+                  class="flex justify-between items-baseline font-heading text-2xl text-k-black"
                 >
                   <span>{{ item.name }}</span>
                   <span
@@ -130,11 +130,11 @@
               </li>
             </ul>
 
-            <h4 class="font-heading text-3xl mt-8 mb-4">Blancos</h4>
+            <h4 class="font-heading text-3xl mt-8 mb-4 text-k-black">Blancos</h4>
             <ul class="list-none space-y-4">
               <li v-for="item in menu.vinos.blancos" :key="item.name">
                 <h5
-                  class="flex justify-between items-baseline font-heading text-2xl"
+                  class="flex justify-between items-baseline font-heading text-2xl text-k-black"
                 >
                   <span>{{ item.name }}</span>
                   <span
@@ -147,22 +147,22 @@
               </li>
             </ul>
 
-            <h4 class="font-heading text-3xl mt-8 mb-4">Mimosas</h4>
-            <p class="text-body text-sm mb-4">
+            <h4 class="font-heading text-3xl mt-8 mb-4 text-k-black">Mimosas</h4>
+            <p class="font-body text-body text-sm mb-4">
               Matcha / Naranja / Fresa / Maracuyá / Guayaba / Mango
             </p>
-            <p class="font-heading text-2xl">$125</p>
+            <p class="font-heading text-2xl text-k-black">$125</p>
           </div>
 
           <!-- Cerveza -->
           <div>
-            <h3 class="font-heading text-5xl">cerveza</h3>
+            <h3 class="font-heading text-5xl text-k-black">cerveza</h3>
 
-            <h4 class="font-heading text-3xl mt-8 mb-4">Artesanal</h4>
+            <h4 class="font-heading text-3xl mt-8 mb-4 text-k-black">Artesanal</h4>
             <ul class="list-none space-y-4">
               <li v-for="item in menu.cerveza.artesanal" :key="item.name">
                 <h5
-                  class="flex justify-between items-baseline font-heading text-2xl"
+                  class="flex justify-between items-baseline font-heading text-2xl text-k-black"
                 >
                   <span>{{ item.name }}</span>
                   <span
@@ -172,15 +172,15 @@
                     >${{ item.tap }} / ${{ item.botella }}</span
                   >
                 </h5>
-                <p class="text-body text-sm mt-1">{{ item.description }}</p>
+                <p class="font-body text-body text-sm mt-1">{{ item.description }}</p>
               </li>
             </ul>
 
-            <h4 class="font-heading text-3xl mt-8 mb-4">Nacional</h4>
-            <p class="text-body mb-2">
+            <h4 class="font-heading text-3xl mt-8 mb-4 text-k-black">Nacional</h4>
+            <p class="font-body text-body mb-2">
               XX lager / Bohemia / Heineken / Amstel ultra
             </p>
-            <p class="font-heading text-2xl">$90</p>
+            <p class="font-heading text-2xl text-k-black">$90</p>
           </div>
         </div>
       </div>

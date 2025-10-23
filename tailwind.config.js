@@ -21,8 +21,8 @@ export default {
         white: '#FFFFFF',
       },
       fontFamily: {
-        heading: ['"Bebas Neue"', 'sans-serif'],
-        body: ['"Source Serif 4"', 'serif'],
+        heading: ['Playfair Display', 'serif'], // Elegant serif for headings
+        body: ['Inter', 'sans-serif'], // Clean sans-serif for body
       },
       spacing: {
         'medium': '9em',

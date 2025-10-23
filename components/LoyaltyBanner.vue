@@ -42,7 +42,7 @@
           Acumula puntos
         </h2>
 
-        <p class="text-xl md:text-2xl text-body mb-8">
+        <p class="font-body text-xl md:text-2xl text-body mb-8">
           Obtén recompensas con cada visita
         </p>
 

@@ -4,7 +4,7 @@
       <!-- Header -->
       <div class="text-center mb-12">
         <h2 class="font-heading text-7xl md:text-8xl text-k-black mb-4">Bebidas de Temporada</h2>
-        <p class="text-body mt-4 max-w-2xl mx-auto text-lg">
+        <p class="font-body text-body mt-4 max-w-2xl mx-auto text-lg">
           Descubre nuestras creaciones especiales de otoño. Solo por tiempo limitado.
         </p>
       </div>
@@ -75,7 +75,7 @@
         </button>
         
         <!-- Subtle hint text -->
-        <p class="text-body text-sm mt-4 opacity-70">
+        <p class="font-body text-body text-sm mt-4 opacity-70">
           Explora toda nuestra carta de café, vinos y cócteles
         </p>
       </div>

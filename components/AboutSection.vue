@@ -11,15 +11,15 @@
           >
         </div>
         <div class="flex flex-col justify-center">
-          <h3 class="font-heading text-5xl md:text-6xl lg:text-7xl">Sobre Nosotros</h3>
+          <h3 class="font-heading text-5xl md:text-6xl lg:text-7xl text-k-black">Sobre Nosotros</h3>
           <div class="mt-6">
-            <p class="text-body text-lg">
+            <p class="font-body text-body text-lg">
               Bienvenido a Booze, donde cada momento del día tiene su bebida perfecta. Desde un espresso matutino hasta una copa de vino al atardecer, somos tu refugio en Colonia Cacho, Tijuana. Nuestra mixología de autor, café de especialidad y brunch todo el día se encuentran en un espacio con actitud. Ya sea que vengas por un cold brew, un cocktail creativo o nuestra famosa charcutería con vino, aquí encontrarás ese plan que nunca falla.
             </p>
-            <p class="text-body text-lg mt-4 font-bold italic">
+            <p class="font-heading italic text-body text-lg mt-4 font-bold">
               Start with a shot, end with a shot.
             </p>
-            <a href="#menu" class="btn-primary inline-block mt-6">Ver menú</a>
+            <a href="#menu" class="btn-primary inline-block mt-6 font-heading">Ver menú</a>
           </div>
         </div>
       </div>

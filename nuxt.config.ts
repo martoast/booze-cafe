@@ -10,8 +10,24 @@ export default defineNuxtConfig({
       charset: 'utf-8',
       viewport: 'width=device-width, initial-scale=1',
       title: 'Booze Café | Tijuana',
+      link: [
+        // Add Google Fonts
+        {
+          rel: 'preconnect',
+          href: 'https://fonts.googleapis.com'
+        },
+        {
+          rel: 'preconnect',
+          href: 'https://fonts.gstatic.com',
+          crossorigin: ''
+        },
+        {
+          rel: 'stylesheet',
+          href: 'https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap'
+        }
+      ],
       meta: [
-        // Essential SEO tags
+        // ... your existing meta tags
         {
           name: 'viewport',
           content: 'width=device-width,initial-scale=1,viewport-fit=cover,maximum-scale=1'
@@ -20,12 +36,10 @@ export default defineNuxtConfig({
           name: 'description', 
           content: 'Café, vinos y cócteles en La Cacho, Tijuana. Start with a shot, end with a shot.'
         },
-        // Keywords
         {
           name: 'keywords',
           content: 'booze cafe, cafe tijuana, cockteles tijuana, vino tijuana, cafe especialidad, cacho tijuana, booze coffee'
         },
-        // Open Graph / Facebook
         { 
           property: 'og:type', 
           content: 'website'
@@ -40,7 +54,7 @@ export default defineNuxtConfig({
         },
         { 
           property: 'og:image', 
-          content: 'https://booze-cafe.netlify.app/logo.jpg'
+          content: 'https://booze-cafe.netlify.app/frame.png'
         },
         { 
           property: 'og:image:width', 
@@ -50,7 +64,6 @@ export default defineNuxtConfig({
           property: 'og:image:height', 
           content: '630'
         },
-        // Twitter
         { 
           name: 'twitter:card', 
           content: 'summary_large_image'
@@ -65,9 +78,8 @@ export default defineNuxtConfig({
         },
         { 
           name: 'twitter:image', 
-          content: 'https://booze-cafe.netlify.app/logo.jpg'
+          content: 'https://booze-cafe.netlify.app/frame.png'
         },
-        // Local Business
         {
           name: 'geo.region',
           content: 'MX-BCN'
