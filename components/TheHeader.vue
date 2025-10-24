@@ -43,6 +43,17 @@
             </li>
             <li>
               <NuxtLink 
+                to="https://wa.me/16199489069?text=Hola,%20me%20interesa%20información%20sobre%20franquicias%20de%20Booze%20Café" 
+                target="_blank" 
+                rel="noopener"
+                external
+                class="text-body font-heading text-lg hover:text-gold transition-colors"
+              >
+                Franquicias
+              </NuxtLink>
+            </li>
+            <li>
+              <NuxtLink 
                 to="https://take.cards/3tGya" 
                 target="_blank" 
                 rel="noopener"
@@ -108,6 +119,18 @@
                 class="block text-body font-heading text-lg hover:text-gold transition-colors py-2"
               >
                 Galería
+              </NuxtLink>
+            </li>
+            <li>
+              <NuxtLink 
+                to="https://wa.me/16199489069?text=Hola,%20me%20interesa%20información%20sobre%20franquicias%20de%20Booze%20Café" 
+                target="_blank" 
+                rel="noopener"
+                external
+                @click="isMenuOpen = false"
+                class="block text-body font-heading text-lg hover:text-gold transition-colors py-2"
+              >
+                Franquicias
               </NuxtLink>
             </li>
             <li>
