@@ -49,7 +49,7 @@
   
           <!-- CTA Button -->
           <a 
-            href="https://maps.app.goo.gl/zThxbDurW1byqN5w9" 
+            href="https://search.google.com/local/writereview?placeid=ChIJ4_cCaQBJ2YAR9WWCeR_kP1U&pli=1" 
             target="_blank" 
             rel="noopener"
             class="inline-flex items-center gap-3 bg-gold text-k-black font-heading text-xl px-8 py-4 rounded-full shadow-xl hover:bg-white transition-all duration-300"
