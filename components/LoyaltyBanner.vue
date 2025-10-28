@@ -48,7 +48,7 @@
 
         <!-- CTA Button -->
         <a 
-          href="https://take.cards/3tGya" 
+          href="https://bumerang.namosystem.com/getpass/737866?utm_source=qr" 
           target="_blank" 
           rel="noopener"
           class="inline-flex items-center gap-3 bg-k-black text-white font-heading text-xl px-8 py-4 rounded-full shadow-xl hover:bg-gold hover:text-k-black transition-all duration-300"
